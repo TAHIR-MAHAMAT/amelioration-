@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TCF Canada</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="CSS JAVA.css">
+</head>
+
+<body>
+  <!-- Bandeau Supérieur -->
+  <div class="top-bar bg-primary text-white py-2">
+    <div class="container d-flex justify-content-between align-items-center">
+      <span class="fw-bold">Bienvenue sur la plateforme TCF Canada</span>
+      <div class="d-flex align-items-center">
+        <a href="#" class="text-white text-decoration-none me-3"><i class="fas fa-book"></i> Formations</a>
+        <a href="#" class="text-white text-decoration-none me-3"><i class="fas fa-tags"></i> Tarifs</a>
+        <a href="#" class="text-white text-decoration-none me-3"><i class="fas fa-envelope"></i> Contactez-nous</a>
+        <a href="#" class="text-white me-2"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white me-2"><i class="fab fa-youtube"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Principale -->
+  <header class="bg-light py-3 border-bottom">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex align-items-center">
+        <img src="c:/Users/tahir/Downloads/tcf-logo-.webp" alt="Logo TCF Canada" class="logo me-3">
+        <nav class="d-flex gap-4">
+          <a href="#" class="text-dark text-decoration-none fw-bold"><i class="fas fa-pen"></i> EXPRESSION ÉCRITE</a>
+          <a href="#" class="text-dark text-decoration-none fw-bold"><i class="fas fa-microphone"></i> EXPRESSION ORALE</a>
+          <a href="#" class="text-dark text-decoration-none fw-bold"><i class="fas fa-book"></i> COMPRÉHENSION ÉCRITE</a>
+          <a href="#" class="text-dark text-decoration-none fw-bold"><i class="fas fa-headphones"></i> COMPRÉHENSION ORALE</a>
+        </nav>
+      </div>
+      <div class="d-flex align-items-center gap-4">
+        <span class="text-dark"><i class="fas fa-user-circle"></i> Bonjour, Tahir Mahamat Nour</span>
+        <a href="#" class="btn btn-outline-danger btn-sm"><i class="fas fa-sign-out-alt"></i> Se déconnecter</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Bannière de Bienvenue -->
+  <section class="welcome-banner text-center text-white py-5">
+    <h2 class="fw-bold">Bonjour Tahir Mahamat Nour,</h2>
+    <p class="mb-0">Membre depuis le 01 décembre, 2024</p>
+  </section>
+
+  <!-- Barre de Navigation Secondaire -->
+  <div class="bg-dark text-white py-2">
+    <div class="container d-flex justify-content-center gap-4">
+      <a href="#" class="text-white text-decoration-none"><i class="fas fa-home me-1"></i> Bienvenue</a>
+      <a href="#" class="text-white text-decoration-none"><i class="fas fa-user me-1"></i> Profile Details</a>
+      <a href="#" class="text-white text-decoration-none"><i class="fas fa-clipboard-list me-1"></i> Subscriptions</a>
+      <a href="#" class="text-white text-decoration-none"><i class="fas fa-shopping-cart me-1"></i> Orders</a>
+      <a href="#" class="text-white text-decoration-none"><i class="fas fa-sign-out-alt me-1"></i> LogOut</a>
+    </div>
+  </div>
+
+  <!-- Contenu Principal -->
+  <main class="container text-center my-5">
+    <h1 class="mb-4">Bienvenue</h1>
+    <button id="train-button" class="btn btn-primary btn-lg d-flex align-items-center mx-auto" data-bs-toggle="modal" data-bs-target="#trainModal">
+      <i class="fas fa-arrow-right me-2"></i>S'entraîner
+    </button>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal fade" id="trainModal" tabindex="-1" aria-labelledby="trainModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="trainModalLabel">S'entraîner</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Prêt à vous entraîner ? Cliquez ici pour commencer !
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

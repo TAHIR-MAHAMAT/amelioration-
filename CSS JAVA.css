@@ -1,0 +1,29 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Logo */
+.logo {
+  width: 150px;
+}
+
+/* Bouton S'entraîner */
+#train-button {
+  font-size: 1.2rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+#train-button:hover {
+  transform: scale(1.05);
+}
+
+/* Bannière de bienvenue */
+.welcome-banner {
+  background-color: #007bff;
+  padding: 60px 0;
+}
+
+/* Lien hover */
+a:hover {
+  text-decoration: underline;
+}
